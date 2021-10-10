@@ -1,13 +1,13 @@
-Exception Handling in Java
-The Exception Handling in Java is one of the powerful mechanism to handle the runtime errors so that the normal flow of the application can be maintained.
-In this tutorial, we will learn about Java exceptions, it's types, and the difference between checked and unchecked exceptions.
-Types of Java Exceptions
-There are mainly two types of exceptions: checked and unchecked. An error is considered as the unchecked exception. 
-However, according to Oracle, there are three types of exceptions namely:
-Checked Exception
-Unchecked Exception
-Error
-1) Checked Exception
+//Exception Handling in Java
+//The Exception Handling in Java is one of the powerful mechanism to handle the runtime errors so that the normal flow of the application can be maintained.
+//In this tutorial, we will learn about Java exceptions, it's types, and the difference between checked and unchecked exceptions.
+//Types of Java Exceptions
+//There are mainly two types of exceptions: checked and unchecked. An error is considered as the unchecked exception. 
+//However, according to Oracle, there are three types of exceptions namely:
+//Checked Exception
+//Unchecked Exception
+//Error
+/*1) Checked Exception
 The classes that directly inherit the Throwable class except RuntimeException and Error are known as checked exceptions. 
 For example, IOException, SQLException, etc.
 Checked exceptions are checked at compile-time.
@@ -18,7 +18,7 @@ For example, ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsExc
 Unchecked exceptions are not checked at compile-time, but they are checked at runtime
 3) Error
 Error is irrecoverable. Some example of errors are OutOfMemoryError, VirtualMachineError, AssertionError etc.
-example of exception handling:
+example of exception handling:*/
 
 
 public class JavaExceptionExample{  
@@ -31,7 +31,7 @@ public class JavaExceptionExample{
    System.out.println("rest of the code...");  
   }  
 }  
-Output:
+/*Output:
 
 Exception in thread main java.lang.ArithmeticException:/ by zero
 rest of the code...
@@ -62,4 +62,4 @@ This Exception is raised when a file is not accessible or does not open.
 IOException 
 It is thrown when an input-output operation failed or interrupted
 InterruptedException 
-It is thrown when a thread is waiting, sleeping, or doing some processing, and it is interrupted.
+It is thrown when a thread is waiting, sleeping, or doing some processing, and it is interrupted.*/
